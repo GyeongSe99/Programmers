@@ -1,7 +1,7 @@
 public class Test2 {
     public String solution(String phone_number) {
         String answer = "";
-        phone_number.indexOf(answer);
+
         String[] str = phone_number.split("");
         for (int i = 0; i < phone_number.length() - 4; i++) {
             str[i] = "*";
